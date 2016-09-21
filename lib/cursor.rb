@@ -97,7 +97,7 @@ class Cursor
     if @board.in_bounds?(new_pos)
       @cursor_pos = new_pos
     else
-      puts "#{new_pos} is out of bounds"
+      # puts "#{new_pos} is out of bounds"
     end
     nil
   end
